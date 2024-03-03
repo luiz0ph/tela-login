@@ -32,6 +32,10 @@ main {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
 }
 
+input {
+    box-shadow: 2px 2px 8px black;
+}
+
 section > h1 {
     text-align: center;
     padding-top: 30px;
@@ -41,7 +45,7 @@ section > h1 {
     text-shadow: 1px 1px 1px black;
 }
 
-img {
+img.imagem-lateral {
     position: absolute;
     top: 50%;
     left: 34.7%;
@@ -159,4 +163,104 @@ img {
     cursor: pointer;
     font-size: 19px;
     font-weight: bold;
+}
+
+/* Logon */
+
+#email {
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    width: 220px;
+    height: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.576);
+    background-color: aquamarine;
+}
+
+#e-mail {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: var(--padrao);
+}
+
+#confirmar {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    font-weight: bolder;
+    font-family: var(--padrao);
+    font-size: 18px;
+}
+
+#confirmar1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.576);
+    background-color: aquamarine;
+    width: 220px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: var(--titulo);
+    position: absolute;
+    top: 67%;
+    left: 27%;
+    text-shadow: 1px 1px 1px black;
+}
+
+#face {
+    border-radius: 10px;
+    position: absolute;
+    top: 78%;
+    left: 20%;
+    height: 50px;
+    width: 50px;
+    transition: 0.5s all ease;
+}
+
+#google {
+    border-radius: 10px;
+    position: absolute;
+    top: 78.4%;
+    left: 46%;
+    height: 50px;
+    width: 50px;
+    transition: 0.5s all ease;
+}
+
+#apple {
+    border-radius: 10px;
+    position: absolute;
+    top: 77.4%;
+    left: 70%;
+    height: 55px;
+    width: 50px;
+    transition: 0.5s all ease;
+}
+
+#face:hover {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#google:hover {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#apple:hover {
+    height: 65px;
+    width: 60px;
+    cursor: pointer;
 }
