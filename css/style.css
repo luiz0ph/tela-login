@@ -212,15 +212,15 @@ img.imagem-lateral {
 h2 {
     font-family: var(--titulo);
     position: absolute;
-    top: 67%;
-    left: 27%;
+    top: 76%;
+    left: 29%;
     text-shadow: 1px 1px 1px black;
 }
 
 #face {
     border-radius: 10px;
     position: absolute;
-    top: 78%;
+    top: 85%;
     left: 20%;
     height: 50px;
     width: 50px;
@@ -230,7 +230,7 @@ h2 {
 #google {
     border-radius: 10px;
     position: absolute;
-    top: 78.4%;
+    top: 85%;
     left: 46%;
     height: 50px;
     width: 50px;
@@ -240,7 +240,7 @@ h2 {
 #apple {
     border-radius: 10px;
     position: absolute;
-    top: 77.4%;
+    top: 85%;
     left: 70%;
     height: 55px;
     width: 50px;
@@ -262,5 +262,25 @@ h2 {
 #apple:hover {
     height: 65px;
     width: 60px;
+    cursor: pointer;
+}
+
+#mandar {
+    position: absolute;
+    top: 65%;
+    left: 26%;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+#mandar:hover {
+    width: 220px;
+    height: 50px;
     cursor: pointer;
 }
