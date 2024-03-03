@@ -135,6 +135,8 @@ img {
     background-color: darkgray;
     font-size: 18px;
     transition: 0.5s all ease;
+    color: black;
+    font-weight: bold;
 }
 
 #enviar:hover {
