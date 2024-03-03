@@ -16,6 +16,10 @@ body {
     background-color: aqua;
 }
 
+p {
+    display: inline;
+}
+
 main {
     position: absolute;
     top: 50%;
@@ -51,7 +55,7 @@ img {
 #nome {
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 22%;
     font-weight: bolder;
     font-size: 18px;
     font-family: var(--padrao);
@@ -60,18 +64,20 @@ img {
 #username {
     position: absolute;
     top: 25%;
-    left: 30%;
+    left: 22%;
     background-color: aquamarine;
     border: 1px solid rgba(0, 0, 0, 0.575);
     font-family: var(--padrao);
     border-radius: 5px;
     padding: 5px;
+    width: 220px;
+    height: 18px;
 }
 
 #senha {
     position: absolute;
     top: 35%;
-    left: 30%;
+    left: 22%;
     font-weight: bolder;
     font-size: 18px;
     font-family: var(--padrao);
@@ -80,10 +86,75 @@ img {
 #password {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 22%;
     background-color: aquamarine;
     border: 1px solid rgba(0, 0, 0, 0.575);
     font-family: var(--padrao);
     border-radius: 5px;
     padding: 5px;
+    width: 220px;
+    height: 18px;
+}
+
+#salvar {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+
+#salvar-senha {
+    position: absolute;
+    top: 49.5%;
+    left: 22%;
+    font-weight: bold;
+}
+
+#salvar:hover {
+    cursor: pointer;
+}
+
+#recuperar-senha {
+    position: absolute;
+    top: 49.5%;
+    left: 53%;
+    transition: 0.5s all ease;
+}
+
+#recuperar-senha:hover {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#enviar {
+    position: absolute;
+    top: 60%;
+    left: 26%;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkgray;
+    font-size: 18px;
+    transition: 0.5s all ease;
+}
+
+#enviar:hover {
+    width: 220px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#logon {
+    position: absolute;
+    top: 73%;
+    left: 25%;
+}
+
+#logon > a {
+    transition: 0.5s all ease;
+}
+
+#logon > a:hover {
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
 }
